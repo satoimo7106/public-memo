@@ -1,3 +1,4 @@
+自分用。競技プログラミング用のpythonチートシート＆リンク集
 
 # 目次
 - [目次](#目次)
@@ -6,6 +7,7 @@
 - [出力(print)](#出力print)
 - [if](#if)
 - [for](#for)
+- [zip](#zip)
 - [list](#list)
 - [set](#set)
 - [listやsetなどに対して合計、最大値、最小値を求める](#listやsetなどに対して合計最大値最小値を求める)
@@ -22,7 +24,6 @@
   - [同じ文字が連続する部分文字列を見つける正規表現](#同じ文字が連続する部分文字列を見つける正規表現)
   - [DFS・BFS](#dfsbfs)
 - [困ったときに見るリンク](#困ったときに見るリンク)
-
 
 
 # 入力(str)
@@ -182,7 +183,7 @@ for ex in ex_list[::-1]:
 
 
 
-#zip
+# zip
 
 
 [https://udon.little-pear.net/python_double_sort/]
