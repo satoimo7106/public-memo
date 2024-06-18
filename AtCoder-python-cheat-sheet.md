@@ -107,10 +107,9 @@ print(" ".join(ex_list))
 
 ```
 参考  
+[pythonでリストの要素をスペース区切りで出力したい時 - スズメの本棚](https://tech-shelf.hatenablog.com/entry/programming/input_output)
 
-[https://tech-shelf.hatenablog.com/entry/programming/input_output]
-
-[https://www.headboost.jp/python-print-end/]
+[Pythonのprintのendのよくある3つの使い方 | HEADBOOST](https://www.headboost.jp/python-print-end/)
 
 # if
 ```python
@@ -167,26 +166,26 @@ for ex in ex_list[::-1]:
 
 ```
 参考  
-[https://uxmilk.jp/12220]
+[Pythonのbreak文とcontinue文の使い方 | UX MILK](https://uxmilk.jp/12220)
 
 
 
-[https://note.nkmk.me/python-zip-usage-for/]
+[Python, zip関数の使い方: 複数のリストの要素をまとめて取得 | note.nkmk.me](https://note.nkmk.me/python-zip-usage-for/)
 
 
 
-[https://www.python.ambitious-engineer.com/archives/1757]
+[ループを逆順で回す方法 | Python学習講座](https://www.python.ambitious-engineer.com/archives/1757)
 
 
 
-[https://uxmilk.jp/8680]
+[Pythonのfor文でインデックスを同時に参照する：enumerate() | UX MILK](https://uxmilk.jp/8680)
 
 
 
 # zip
 
 
-[https://udon.little-pear.net/python_double_sort/]
+[Pythonで2つのリストを関係を保持したままソートする | うどんコード](https://udon.little-pear.net/python_double_sort/)
 
 
 
@@ -215,7 +214,7 @@ len(sample_list)
 sample_list.reverse()
 ```
 参考  
-[https://note.nkmk.me/python-reverse-reversed/]
+[Pythonでリストや文字列を逆順に並べ替え（reverse, reversed） | note.nkmk.me](https://note.nkmk.me/python-reverse-reversed/)
 
 
 # set
@@ -234,7 +233,7 @@ sample_set.add(s)
 
 ```
 参考  
-[https://www.javadrive.jp/python/set/index1.html]
+[Python | 集合を作成する](https://www.javadrive.jp/python/set/index1.html)
 
 
 
@@ -265,11 +264,11 @@ s_index=s.find("example")
 s.split()
 ```
 参考  
-[https://note.nkmk.me/python-reverse-reversed/]
+[Pythonでリストや文字列を逆順に並べ替え（reverse, reversed） | note.nkmk.me](https://note.nkmk.me/python-reverse-reversed/)
 
-[https://note.nkmk.me/python-str-search/]
+[Pythonで文字列を検索（〜を含むか判定、位置取得） | note.nkmk.me](https://note.nkmk.me/python-str-search/)
 
-[https://www.headboost.jp/python-strings-into-a-list/]
+[Pythonのリストと文字列を相互に変換する方法まとめ | HEADBOOST](https://www.headboost.jp/python-strings-into-a-list/)
 
 
 
@@ -287,7 +286,7 @@ if x not in y:
     print("")
 ```
 参考  
-[https://note.nkmk.me/python-in-basic/]
+[Pythonのin演算子でリストなどに特定の要素が含まれるか判定 | note.nkmk.me](https://note.nkmk.me/python-in-basic/)
 
 
 
@@ -309,9 +308,9 @@ ex_list[0,:]
 ex_list[:,0]
 ```
 参考  
-[https://note.nkmk.me/python-slice-usage/]
+[Pythonのスライスによるリストや文字列の部分選択・代入 | note.nkmk.me](https://note.nkmk.me/python-slice-usage/)
 
-[https://it-ojisan.tokyo/python-slice/]
+[Pythonのnumpy配列をスライスで行と列の取得をする方法 | ITを使っていこう](https://it-ojisan.tokyo/python-slice/)
 
 
 # ライブラリ
@@ -329,7 +328,7 @@ sample_list=tolist(np_list)
 
 ```
 参考  
-[https://note.nkmk.me/python-numpy-list/]
+[NumPy配列ndarrayとPythonのリストを相互に変換 | note.nkmk.me](https://note.nkmk.me/python-numpy-list/)
 
 ## itertools
 ```python
@@ -345,12 +344,12 @@ for p in itertools.permutations(listやsetなど, 選択する個数):
 ```
 参考  
 
-[https://qiita.com/anmint/items/37ca0ded5e1d360b51f3]
+[すごいぞitertoolsくん #Python - Qiita](https://qiita.com/anmint/items/37ca0ded5e1d360b51f3)
 
-[https://note.nkmk.me/python-math-factorial-permutations-combinations/]
+[Pythonで階乗、順列・組み合わせを計算、生成 | note.nkmk.me](https://note.nkmk.me/python-math-factorial-permutations-combinations/)
 
 
-[https://qiita.com/Mohrey/items/b0afc8edc5fed742b68a]
+[【Python】リスト内の要素の全ての組み合わせを出力 #標準ライブラリ - Qiita](https://qiita.com/Mohrey/items/b0afc8edc5fed742b68a)
 
 
 
@@ -359,40 +358,40 @@ for p in itertools.permutations(listやsetなど, 選択する個数):
 使ったことがあるアルゴリズム
 
 ## 回文
-[https://tjkendev.github.io/procon-library/python/string/manacher.html]
+[最長回文 (Manacher’s algorithm) - yaketake08's 実装メモ](https://tjkendev.github.io/procon-library/python/string/manacher.html)
 
-[https://qiita.com/Shawna/items/17ed870cd4c8c0f1f478]
+[回文を列挙する #アルゴリズム - Qiita](https://qiita.com/Shawna/items/17ed870cd4c8c0f1f478)
 
 ## 素因数分解
 
-[https://note.nkmk.me/python-prime-factorization/]
+[Pythonで素因数分解（試し割り法） | note.nkmk.me](https://note.nkmk.me/python-prime-factorization/)
 
 ## 累積和
 
-[https://note.nkmk.me/python-itertools-accumulate/]
+[Pythonで累積和・累積積（itertools.accumulate） | note.nkmk.me](https://note.nkmk.me/python-itertools-accumulate/)
 
 
-[https://qiita.com/drken/items/56a6b68edef8fc605821#2-2-%E7%B4%AF%E7%A9%8D%E5%92%8C%E3%82%92%E8%A6%96%E8%A6%9A%E7%9A%84%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8B]
+[累積和を何も考えずに書けるようにする！ #AtCoder - Qiita](https://qiita.com/drken/items/56a6b68edef8fc605821#2-2-%E7%B4%AF%E7%A9%8D%E5%92%8C%E3%82%92%E8%A6%96%E8%A6%9A%E7%9A%84%E3%81%AB%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8B)
 
 ## 同じ文字が連続する部分文字列を見つける正規表現
 
-[https://qiita.com/norioc/items/324d9210ae2db29d08e6]
+[同じ文字が N 個以上連続する部分文字列を見つける正規表現 #Python - Qiita](https://qiita.com/norioc/items/324d9210ae2db29d08e6)
 
 ## DFS・BFS
 
-[https://amateur-engineer-blog.com/dfs-bfs/]
+[【AtCoder】Pythonで使いこなす深さ優先探索・幅優先探索](https://amateur-engineer-blog.com/dfs-bfs/)
 
 
 
 
 # 困ったときに見るリンク
 
-[https://algo-logic.info/how-to-think-cp/#]
+[競技プログラミングで解法を思いつくための典型的な考え方 | アルゴリズムロジック](https://algo-logic.info/how-to-think-cp/#)
 
 
-[https://qiita.com/sano192/items/e63d7a794b621b5d5ec6]
+[【AtCoder】WAが出た時の対処法(灰色コーダー向け)【競技プログラミング】 #Python - Qiita](https://qiita.com/sano192/items/e63d7a794b621b5d5ec6)
 
-[https://qiita.com/H20/items/3de3f298b7c075fa5925]
+[【Python版】AtCoderのコンテスト中に「問題が解けない！」となった時に読む記事 #競技プログラミング - Qiita](https://qiita.com/H20/items/3de3f298b7c075fa5925)
 
 
 
