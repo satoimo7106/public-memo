@@ -380,7 +380,8 @@ for p in itertools.permutations(listやsetなど, 選択する個数):
 ## DFS・BFS
 
 [【AtCoder】Pythonで使いこなす深さ優先探索・幅優先探索](https://amateur-engineer-blog.com/dfs-bfs/)
-
+[【Python】クラスで実装する幅優先探索（BFS）と深さ優先探索（DFS） #AtCoder - Qiita](https://qiita.com/keisuke-ota/items/6c1b4846b82f548b5dec)
+[Pythonで誰でも書けるBFS(幅優先探索)｜ぱん](https://note.com/melon_ms_mtcc/n/nd2c0c7c16edb#Qsoxq)
 
 
 
